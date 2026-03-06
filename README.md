@@ -4,7 +4,7 @@
 [![Size](https://img.shields.io/badge/Size-Ultralight-brightgreen.svg)]()
 [![Platform](https://img.shields.io/badge/Platform-Web%20Browser-orange.svg)]()
 
-**Minecraft Classic, but make it fit in your pocket.** This repository contains a highly optimized, modified, and completely self-contained version of **ClassiCube**. I’ve stripped away the bulk and bundled everything into a **single `.html` file**. No installers, no folders, no "where did that DLL go?"—just pure, blocky nostalgia that runs on a toaster.
+**A cube game Classic, but make it fit in your pocket.** This repository contains a highly optimized, modified, and completely self-contained version of **ClassiCube**. I’ve stripped away the bulk and bundled everything into a **single `.html` file**. No installers, no folders, no "where did that DLL go?"—just pure, blocky nostalgia that runs on a toaster.
 
 ---
 
