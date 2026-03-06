@@ -1,3 +1,6 @@
+
+<img width="1536" height="727" alt="cc" src="https://github.com/user-attachments/assets/1ec099b1-5906-405c-a777-671e8a1b3d4b" />
+
 # 🧊 ClassiCube AIO (All-in-One)
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
