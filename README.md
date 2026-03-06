@@ -22,9 +22,9 @@
 
 It’s so simple it barely needs a section:
 
-1.  **Download** the `index.html` file.
-2.  **Double-click** it.
-3.  **Profit.** > [!TIP]
+1. **Download** the `index.html` file.
+2. **Double-click** it.
+3. **Profit.** > [!TIP]
 > You can host this on **GitHub Pages** in about 30 seconds to have your own personal game link to share with friends.
 
 ---
@@ -43,7 +43,7 @@ This version isn't just a copy-paste. To achieve the "All-in-One" magic, the fol
 This project is a derivative of **[ClassiCube](https://www.classicube.net/)**, an open-source reimplementation of Minecraft Classic. 
 
 * **Original Engine:** ClassiCube Team.
-* **AIO Optimization:** zMykerd
+* **AIO Optimization:** [zMykerd](https://github.com/zMykerd)
 
 ClassiCube is licensed under the **BSD 3-Clause License**. You are free to modify, distribute, and use this version as per the license terms.
 
@@ -52,6 +52,7 @@ ClassiCube is licensed under the **BSD 3-Clause License**. You are free to modif
 ## 💬 Contributing
 
 Found a way to make it even lighter? Or maybe you squeezed a new feature into the single-file limit? 
+
 1. Fork it.
 2. Tweak it.
 3. Send a PR.
