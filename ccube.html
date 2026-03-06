@@ -2,8 +2,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src data: blob:;">
-<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE+0lEQVR42sWX7U+WVRzHvwdtqaW9yj9AUdDN5sC2JrTVDF4k1WoTo0DgBpUn5SED7hBDE5AbBFppjieXPIarABXXEO/5xlfYoIetrS23+j+8uz7BybMLroGk+b13b+c653d+55zf+f4ejv4LftTki/z1f2PUXEgtUXbzLiXM8C9RTvOoLqTqSeK+ia7rVH32UX3QelGnD9zR4LZTOl5+UmWVtAfV/sZx5Z05o/KyXxR9Xo8LtzSyvVqFYU45rYGdtr9QB9tmdG3DfUXXFSv7nCO/9YSO1JUqt3FSX7+k1SCm0TW9OvcWiptUc/iet5AcTKjrZaxhv8/rk0Pf6uIrcvC7Jp/FUujoUF3OjGae0UqAYKK2zabp1fFhffFaVLfXyoeQMjtiisXZb9r0yYeoomvRga5EEz87Y1awCXadrpSx3zS+8Yra0ioUasCc7Qrnzuq7zb2mdf+A2tPlA309at0/58kgW6pDjczt93Sgi02gW8uhWFkt7JqJfi7UqbQqQVt+rjXFNTfUlRwz3k8xc13dybUqrmEMmVtmZLsc9Ju2tG/0+etFnu5lCDewk91jqgoVNMiHVoXzb+jybk50SZ+9l6F9I/xp08cYMvIBS3C16GYNBaFMuWdhNm1YLwd/6e56zOq/9wJltkNa2w/p5vTDc369Qoe5u57NaCngu5UqOGW/2S1mlyDmxIYP9c6lOlNa5bF7kx2fUF/ShOlLok0fY1wBsvYg6LDj4CMV1i8ZJ5r18ZGoRuPtN2Sq17HKiAnnYw0CTsTUhrhreLJXSdNRDSXy32uSp4tMVgtjyLCJEpPTHPGug3lz+n6zFsAarCU/jiorIgcwGlJxrxKnu7mJBWijdFy9ezpNfTbxgDZ9jCEzo6kXaDM3UVt+uqzIm36iy8WovkztUtPbtFEWMpkdg55bhT1lkMvdZL23EMFJPtDHyd2DMJcN4aIhHexAN/2s5eYOYWJMg5sQtR4sBJnrpjsZhkM47hGzj6tnjwLAAsggy5wunX0XF7WkRXeR3m+J6mp8qbKbZO+ajObddwVxXQ7wcc/NhmE7hJtS/w5MrgAwNqUrO5BlTobZN+wdxsjBH94arMWarB2nR0LskcWNr8s4HYFXELNXoKWuoHeVV/AgDt14C2t5azbJAkK4JIQwEKd2CRKeNJCwOpCEHMIlIURGV4HJtCRUj5dpr1oSBrlhryKeG2713LBvtw0yrhuO4YZy3fAYbqiwSqqRdd0Qlw5wQzcQnVgUiDhtq5xApNoQC8DkFBGIhhOjZigRs3NykhTyyDKHNlaZMw8D0bRXsBCIAkJxKCAUX5sPxXJDce18KJYbim8uCsW31Z9gx0FVUCgG5co/TdJxE4gFCt0EFTOja3A1+OImoyIvGSErBzaJ/SmbjAIwvZCO74l0vEiQ0iuPe+UE3R7DiRH8/03HZul0zMFWlI5BUUBBQpFBNoRUkJEoGdPigsRWyf5qCZ3oXkFJ1jBfkpnxjf3mfBqWwITsHmL2Krgk61MkAxkstVCSfUq5jnXQSUm2wqI0/p+idEgUpdHli1ITi8vTgU75QGVFKZZuUsbQie4Vl+U9TlnuJxU8IKrZ7zavLCcu+Mvyr0yDryxf9cPkcLjU9zDhhWQfJq53TNuHiclt9Da6S48LZDH3aUbQ4mkGMe9o4OHTzJSX/YqfP0mQOzyLNNnHKe3VPk6f+vP8b1L5v/cVfbqeAAAAAElFTkSuQmCC" /><title>CCube AIO </title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src data: blob:; img-src data:;">
+<!--<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE+0lEQVR42sWX7U+WVRzHvwdtqaW9yj9AUdDN5sC2JrTVDF4k1WoTo0DgBpUn5SED7hBDE5AbBFppjieXPIarABXXEO/5xlfYoIetrS23+j+8uz7BybMLroGk+b13b+c653d+55zf+f4ejv4LftTki/z1f2PUXEgtUXbzLiXM8C9RTvOoLqTqSeK+ia7rVH32UX3QelGnD9zR4LZTOl5+UmWVtAfV/sZx5Z05o/KyXxR9Xo8LtzSyvVqFYU45rYGdtr9QB9tmdG3DfUXXFSv7nCO/9YSO1JUqt3FSX7+k1SCm0TW9OvcWiptUc/iet5AcTKjrZaxhv8/rk0Pf6uIrcvC7Jp/FUujoUF3OjGae0UqAYKK2zabp1fFhffFaVLfXyoeQMjtiisXZb9r0yYeoomvRga5EEz87Y1awCXadrpSx3zS+8Yra0ioUasCc7Qrnzuq7zb2mdf+A2tPlA309at0/58kgW6pDjczt93Sgi02gW8uhWFkt7JqJfi7UqbQqQVt+rjXFNTfUlRwz3k8xc13dybUqrmEMmVtmZLsc9Ju2tG/0+etFnu5lCDewk91jqgoVNMiHVoXzb+jybk50SZ+9l6F9I/xp08cYMvIBS3C16GYNBaFMuWdhNm1YLwd/6e56zOq/9wJltkNa2w/p5vTDc369Qoe5u57NaCngu5UqOGW/2S1mlyDmxIYP9c6lOlNa5bF7kx2fUF/ShOlLok0fY1wBsvYg6LDj4CMV1i8ZJ5r18ZGoRuPtN2Sq17HKiAnnYw0CTsTUhrhreLJXSdNRDSXy32uSp4tMVgtjyLCJEpPTHPGug3lz+n6zFsAarCU/jiorIgcwGlJxrxKnu7mJBWijdFy9ezpNfTbxgDZ9jCEzo6kXaDM3UVt+uqzIm36iy8WovkztUtPbtFEWMpkdg55bhT1lkMvdZL23EMFJPtDHyd2DMJcN4aIhHexAN/2s5eYOYWJMg5sQtR4sBJnrpjsZhkM47hGzj6tnjwLAAsggy5wunX0XF7WkRXeR3m+J6mp8qbKbZO+ajObddwVxXQ7wcc/NhmE7hJtS/w5MrgAwNqUrO5BlTobZN+wdxsjBH94arMWarB2nR0LskcWNr8s4HYFXELNXoKWuoHeVV/AgDt14C2t5azbJAkK4JIQwEKd2CRKeNJCwOpCEHMIlIURGV4HJtCRUj5dpr1oSBrlhryKeG2713LBvtw0yrhuO4YZy3fAYbqiwSqqRdd0Qlw5wQzcQnVgUiDhtq5xApNoQC8DkFBGIhhOjZigRs3NykhTyyDKHNlaZMw8D0bRXsBCIAkJxKCAUX5sPxXJDce18KJYbim8uCsW31Z9gx0FVUCgG5co/TdJxE4gFCt0EFTOja3A1+OImoyIvGSErBzaJ/SmbjAIwvZCO74l0vEiQ0iuPe+UE3R7DiRH8/03HZul0zMFWlI5BUUBBQpFBNoRUkJEoGdPigsRWyf5qCZ3oXkFJ1jBfkpnxjf3mfBqWwITsHmL2Krgk61MkAxkstVCSfUq5jnXQSUm2wqI0/p+idEgUpdHli1ITi8vTgU75QGVFKZZuUsbQie4Vl+U9TlnuJxU8IKrZ7zavLCcu+Mvyr0yDryxf9cPkcLjU9zDhhWQfJq53TNuHiclt9Da6S48LZDH3aUbQ4mkGMe9o4OHTzJSX/YqfP0mQOzyLNNnHKe3VPk6f+vP8b1L5v/cVfbqeAAAAAElFTkSuQmCC" />-->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='64' y2='64' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0%25' stop-color='red'/%3E%3Cstop offset='50%25' stop-color='lime'/%3E%3Cstop offset='100%25' stop-color='blue'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg stroke='url(%23g)' stroke-width='2' fill='none'%3E%3Crect x='6' y='6' width='32' height='32'/%3E%3Crect x='22' y='22' width='32' height='32'/%3E%3Cline x1='6' y1='6' x2='22' y2='22'/%3E%3Cline x1='38' y1='6' x2='54' y2='22'/%3E%3Cline x1='6' y1='38' x2='22' y2='54'/%3E%3Cline x1='38' y1='38' x2='54' y2='54'/%3E%3C/g%3E%3C/svg%3E">
+<title>CCube AIO </title>
 </head>
 <style type="text/css">
 html, body {
@@ -76,7 +78,7 @@ html, body {
       var Module = {
         preRun: [ preloadIndexedDB, resizeGameCanvas ],
         postRun: [],
-        arguments: ['(onefile)'],
+        arguments: ['(AIO)'],
         print: function(text) {
             if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
             console.log(text);
@@ -92,11 +94,11 @@ html, body {
         totalDependencies: 0,
         monitorRunDependencies: function(left) {
           this.totalDependencies = Math.max(this.totalDependencies, left);
-          Module.setStatus(left ? 'Preparing... (' + (this.totalDependencies-left) + '/' + this.totalDependencies + ')' : 'All downloads complete.');
+          Module.setStatus(left ? 'Preparazione... (' + (this.totalDependencies-left) + '/' + this.totalDependencies + ')' : 'Tutti gli scaricamenti completati.');
         },
         onAbort: function(why) { logFatal('abort: ' + why); }
       };
-      Module.setStatus('Downloading...');
+      Module.setStatus('Scaricamento...');
       window.onerror = function(msg, source, lineno, colno, error) {
         var sname = (source + "").replace('https://cdn.classicube.net/client/latest/ClassiCube.js', 'CC.js').replace('http://cdn.classicube.net/client/latest/ClassiCube.js', 'CC.js'); 
         logFatal(msg + " at " + lineno + "," + colno + " in " + sname); 
