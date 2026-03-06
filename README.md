@@ -43,7 +43,7 @@ This version isn't just a copy-paste. To achieve the "All-in-One" magic, the fol
 This project is a derivative of **[ClassiCube](https://www.classicube.net/)**, an open-source reimplementation of Minecraft Classic. 
 
 * **Original Engine:** ClassiCube Team.
-* **AIO Optimization:** [zMykerd](https://github.com/zMykerd)
+* **AIO Optimization:** [zMykerd](https://github.com/zera0mykerd)
 
 ClassiCube is licensed under the **BSD 3-Clause License**. You are free to modify, distribute, and use this version as per the license terms.
 
